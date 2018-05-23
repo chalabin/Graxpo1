@@ -17,7 +17,9 @@ html{
 img{
     max-width: 100%;
 }
-
+header {
+    background: rgba(150,150,150,0.5);
+}
 body {
     font-family: 'Open Sans', sans-serif;
     color: #81868E;
@@ -104,5 +106,9 @@ h1,h2,h3,h4,h5,h6 {
     display: table-cell;
     vertical-align: middle;
     min-width: 1%;
+}
+
+.btn-danger, .bg-danger {
+    background-color: #E84C3D;
 }
 
